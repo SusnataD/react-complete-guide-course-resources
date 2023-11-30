@@ -1,6 +1,6 @@
-import { useRef } from 'react';
+import { useRef } from "react";
 
-import CartModal from './CartModal.jsx';
+import CartModal from "./CartModal.jsx";
 
 export default function Header({ cart, onUpdateCartItemQuantity }) {
   const modal = useRef();
@@ -17,7 +17,7 @@ export default function Header({ cart, onUpdateCartItemQuantity }) {
     modalActions = (
       <>
         <button>Close</button>
-        <button>Checkout</button>
+        <button>Checkout!!</button>
       </>
     );
   }
